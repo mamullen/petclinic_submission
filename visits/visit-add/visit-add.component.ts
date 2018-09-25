@@ -53,7 +53,7 @@ export class VisitAddComponent implements OnInit {
   constructor(private visitService: VisitService, private vetService: VetService, private petService: PetService, private router: Router, private route: ActivatedRoute) {
     this.visit = <Visit>{};
     this.vets = [];
-    this.time_sched=["9:00am", "10:00am", "11:00am"];
+    this.time_sched=["9:00am", "10:00am", "11:00am", "12:00pm", "1:00pm", "2:00pm", "3:00pm",, "4:00pm"];
     this.current_vet=<Vet>{};
     // this.current_vet.schedule={};
     this.current_pet = <Pet>{};
